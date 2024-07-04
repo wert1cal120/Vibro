@@ -1,4 +1,6 @@
 let tg = window.Telegram.WebApp;
+tg.expand();
+
 
 
 let counter = document.getElementById("counter");
