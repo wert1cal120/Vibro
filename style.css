@@ -6,10 +6,6 @@ body {
     overflow: hidden;
 }
 
-.content {
-    max-width: 390px;
-}
-
 .nav {
     background-color: rgb(157, 0, 255);
     display: flex;
@@ -42,7 +38,7 @@ body {
 #main-button {
     display: flex;
     justify-content: center;
-    margin: 100px 0px;
+    margin: 50px 0px;
 }
 
 #main-button > img {
