@@ -40,11 +40,13 @@ body {
 }
 
 #main-button {
-    background-image: url(img/vibrator-button.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 350px;
-    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+#main-button > img {
+    width: 300px;
     filter: drop-shadow(0px 0px 10px black);
 }
 
